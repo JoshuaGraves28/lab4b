@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+
+      <title>CS 425 Lab #4</title>
+      <meta charset="utf-8">
+      
+      <script type="text/javascript" src="scripts/jquery-3.4.1.min.js"></script>
+      <script type="text/javascript" src="scripts/Lab4.js"></script>
+
+   </head>
+
+   <body>
+
+      <form name="inputform" id="inputform" action="#">
+
+         <fieldset>
+             
+            <legend>Lab #4 Currency Conversion Calculator</legend>
+
+            <label for="input">Amount (in USD):</label>
+            <input type="text" name="input" id="input">
+
+            <input type="button" value="Convert" onclick="Lab4.getConversion();">
+
+         </fieldset>
+
+      </form>
+
+      <div id="output"></div>
+
+      <script type="text/javascript">
+         Lab4.init();
+      </script>
+
+   </body>
+
+</html>
